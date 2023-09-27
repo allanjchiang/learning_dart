@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const age = 27;
+
 void main() {
   final name = 'Foo';
   runApp(const MyApp());
