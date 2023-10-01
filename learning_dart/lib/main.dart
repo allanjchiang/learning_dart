@@ -4,7 +4,9 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {}
+void test() {
+  final age = 20;
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
