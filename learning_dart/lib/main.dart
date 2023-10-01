@@ -11,7 +11,7 @@ void test() {
   } else if (name != 'Bar') {
     print('This value is not Bar.');
   } else {
-    print('I don\'t know what this is');
+    print("I don't know what this is");
   }
 }
 
