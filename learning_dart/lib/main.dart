@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+String getFullName(String firstName, String lastName)
+
 void main() {
   runApp(const MyApp());
 }
