@@ -6,7 +6,7 @@ void main() {
 
 void test() {
   const name = 'Foo';
-  if (name == 'Foo') {
+  if (name == 'Fooo') {
     print('Yes, this is Foo.');
   } else if (name != 'Bar') {
     print('This value is not Bar.');
