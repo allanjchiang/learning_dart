@@ -5,7 +5,10 @@ void main() {
 }
 
 void test() {
-  final name = 'foo';
+  final name = 'Foo';
+  if (name == 'Foo') {
+    print('Yes, this is Foo.');
+  }
 }
 
 class MyApp extends StatelessWidget {
