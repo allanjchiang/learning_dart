@@ -8,6 +8,8 @@ void test() {
   final name = 'Foo';
   if (name == 'Foo') {
     print('Yes, this is Foo.');
+  } else {
+    print('No, this is not Foo.');
   }
 }
 
