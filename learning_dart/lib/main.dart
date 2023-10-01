@@ -6,9 +6,6 @@ void main() {
 
 void test() {
   final age = 20;
-  final halfOfAge = age / 2;
-  final doubleTheAge = age * 2;
-  print(halfOfAge);
 }
 
 class MyApp extends StatelessWidget {
