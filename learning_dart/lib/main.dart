@@ -4,16 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {
-  const name = 'Foo';
-  if (name == 'Fooo') {
-    print('Yes, this is Foo.');
-  } else if (name != 'Bar') {
-    print('This value is not Bar.');
-  } else {
-    print("I don't know what this is");
-  }
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
