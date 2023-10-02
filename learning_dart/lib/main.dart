@@ -4,11 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {
-  final name = 'Foo Bar Baz';
-  final nameTimes20 = name * 100;
-  print(nameTimes20);
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
