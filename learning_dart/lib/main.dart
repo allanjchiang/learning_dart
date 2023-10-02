@@ -5,7 +5,7 @@ void main() {
 }
 
 void test() {
-  final age = 20;
+  final name = 'Foo';
 }
 
 class MyApp extends StatelessWidget {
