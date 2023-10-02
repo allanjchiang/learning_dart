@@ -5,7 +5,7 @@ void main() {
 }
 
 void test() {
-  final names = ['Foo', 'Bar', 'Baz'];
+  var names = ['Foo', 'Bar', 'Baz'];
   print(names.length);
 }
 
