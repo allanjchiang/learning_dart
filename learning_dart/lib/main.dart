@@ -6,6 +6,8 @@ void main() {
 
 void test() {
   final names = ['Foo', 'Bar', 'Baz'];
+  final foo = names[0];
+  print(foo);
 }
 
 class MyApp extends StatelessWidget {
