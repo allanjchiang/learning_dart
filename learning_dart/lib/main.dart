@@ -6,6 +6,7 @@ void main() {
 
 void test() {
   final name = 'Foo';
+  final nameTimes20 = name * 20;
 }
 
 class MyApp extends StatelessWidget {
