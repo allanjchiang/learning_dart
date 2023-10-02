@@ -6,7 +6,7 @@ void main() {
 
 void test() {
   final names = ['Foo', 'Bar', 'Baz'];
-  final foo = names[0];
+  final foo = names[2];
   print(foo);
 }
 
