@@ -5,7 +5,10 @@ void main() {
 }
 
 void test() {
-  const names = {'foo', 'bar', 'baz'};
+  var names = {'foo', 'bar', 'baz'};
+  names.add('foo');
+  names.add('bar');
+  names.add('baz');
 }
 
 class MyApp extends StatelessWidget {
