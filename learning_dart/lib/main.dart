@@ -9,6 +9,7 @@ void test() {
   names.add('foo');
   names.add('bar');
   names.add('baz');
+  print(names);
 }
 
 class MyApp extends StatelessWidget {
