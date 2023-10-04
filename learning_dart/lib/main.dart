@@ -5,7 +5,7 @@ void main() {
 }
 
 void test() {
-  final names = {'foo'};
+  const names = {'foo', 'bar', 'baz'};
 }
 
 class MyApp extends StatelessWidget {
