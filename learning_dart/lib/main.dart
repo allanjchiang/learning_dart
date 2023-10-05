@@ -5,7 +5,7 @@ void main() {
 }
 
 void test() {
-  const name = null;
+  const String? name = null;
 }
 
 class MyApp extends StatelessWidget {
