@@ -4,7 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-enum Properties { firstName, lastName, age }
+enum AnimalType { dog, cat, rabbit }
 
 void test() {}
 
