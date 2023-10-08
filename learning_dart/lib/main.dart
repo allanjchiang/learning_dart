@@ -5,7 +5,9 @@ void main() {
 }
 
 void test() {
-  List<String?>? names = ['Foo', 'Bar', null];
+  const String? firstName = 'Foo';
+  const String? middleName = 'Bar';
+  const String? lastName = 'Baz';
 }
 
 class MyApp extends StatelessWidget {
