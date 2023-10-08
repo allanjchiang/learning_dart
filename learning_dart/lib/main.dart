@@ -4,8 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {
-  List<String>? names = ['Foo'];
+void test(List<String>? names) {
+  final numberOfNames = names.length;
 }
 
 class MyApp extends StatelessWidget {
