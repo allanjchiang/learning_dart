@@ -5,8 +5,7 @@ void main() {
 }
 
 void test() {
-  List<String>? names = ['Foo', 'Bar'];
-  names = null;
+  List<String?>? names = ['Foo', 'Bar', null];
 }
 
 class MyApp extends StatelessWidget {
