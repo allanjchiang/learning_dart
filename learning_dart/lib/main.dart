@@ -4,12 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-void test(String? firstName, String? middleName, String? lastName) {
-  String? name = firstName;
-  name ??= middleName;
-  name ??= lastName;
-  print(name);
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -17,7 +12,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    test('Bar', null, 'Baz');
+    test();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
