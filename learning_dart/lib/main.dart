@@ -4,12 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {
-  const String? firstName = null;
-  const String? middleName = 'Bar';
-  const String? lastName = 'Baz';
-
-  const firstNonNullValue = firstName ?? middleName ?? lastName;
+void test(String? firstName, String? middleName, String? lastName) {
+  final firstNonNullValue = firstName ?? middleName ?? lastName;
 }
 
 class MyApp extends StatelessWidget {
