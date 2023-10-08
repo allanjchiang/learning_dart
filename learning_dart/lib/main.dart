@@ -6,7 +6,9 @@ void main() {
 
 enum PersonProperties { firstName, lastName, age }
 
-void test() {}
+void test() {
+  print(PersonProperties.firstName);
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
