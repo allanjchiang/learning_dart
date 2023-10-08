@@ -5,8 +5,8 @@ void main() {
 }
 
 void test() {
-  int? age = 20;
-  age = null;
+  List<String>? names = ['Foo', 'Bar'];
+  names = null;
 }
 
 class MyApp extends StatelessWidget {
