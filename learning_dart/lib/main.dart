@@ -5,10 +5,8 @@ void main() {
 }
 
 void test() {
-  String? name = null;
-  print(name);
-  name = 'Foo';
-  print(name);
+  int? age = 20;
+  age = null;
 }
 
 class MyApp extends StatelessWidget {
