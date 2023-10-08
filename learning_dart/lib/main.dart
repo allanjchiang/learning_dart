@@ -5,7 +5,7 @@ void main() {
 }
 
 void test(List<String>? names) {
-  final length = names?.length ?? 0;
+  names?.add('Foo');
 }
 
 class MyApp extends StatelessWidget {
