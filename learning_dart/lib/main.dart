@@ -4,6 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
+enum PersonProperties { firstName, lastName, age }
+
 void test() {}
 
 class MyApp extends StatelessWidget {
