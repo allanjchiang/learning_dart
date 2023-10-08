@@ -4,9 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-void test(List<String>? names) {
-  names?.add('Foo');
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
