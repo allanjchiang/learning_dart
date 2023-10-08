@@ -6,7 +6,7 @@ void main() {
 
 enum AnimalType { dog, cat, rabbit }
 
-void test() {}
+void test(AnimalType animalType) {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
