@@ -7,7 +7,7 @@ void main() {
 enum PersonProperties { firstName, lastName, age }
 
 void test() {
-  print(PersonProperties.firstName);
+  print(PersonProperties.firstName.name);
 }
 
 class MyApp extends StatelessWidget {
