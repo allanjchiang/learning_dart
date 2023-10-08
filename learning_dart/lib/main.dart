@@ -5,9 +5,11 @@ void main() {
 }
 
 void test() {
-  const String? firstName = 'Foo';
+  const String? firstName = null;
   const String? middleName = 'Bar';
   const String? lastName = 'Baz';
+
+  const firstNonNullValue = firstName ?? middleName ?? lastName;
 }
 
 class MyApp extends StatelessWidget {
