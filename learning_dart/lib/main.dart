@@ -5,9 +5,7 @@ void main() {
 }
 
 void test(List<String>? names) {
-  if (names != null) {
-    final length = names.length;
-  }
+  final length = names?.length;
 }
 
 class MyApp extends StatelessWidget {
