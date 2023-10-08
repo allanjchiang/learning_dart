@@ -8,13 +8,16 @@ enum AnimalType { dog, cat, rabbit }
 
 void test(AnimalType animalType) {
   switch (animalType) {
-    case AnimalType.cat:
-      print("Cat");
-    case AnimalType.dog:
-      print("Dog");
     case AnimalType.rabbit:
       print("Rabbit");
+      break;
+    case AnimalType.cat:
+      print("Cat");
+      break;
+    case AnimalType.dog:
+      print("Dog");
   }
+  print("FUNCTION IS FINISHED");
 }
 
 class MyApp extends StatelessWidget {
