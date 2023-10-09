@@ -8,6 +8,10 @@ class Person {
   final String name;
 
   Person(this.name);
+
+  void printName() {
+    print(name);
+  }
 }
 
 void test() {
