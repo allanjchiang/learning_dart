@@ -11,7 +11,8 @@ class Person {
 }
 
 void test() {
-  final person = Person();
+  final person = Person('Foo Bar');
+  print(person.name);
 }
 
 class MyApp extends StatelessWidget {
