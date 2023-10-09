@@ -4,7 +4,15 @@ void main() {
   runApp(const MyApp());
 }
 
-void test() {}
+class Person {
+  final String name;
+
+  Person(this.name);
+}
+
+void test() {
+  final person = Person();
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
