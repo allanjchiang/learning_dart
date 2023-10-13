@@ -13,6 +13,9 @@ class Cat {
 void test() {
   final cat1 = Cat('Foo');
   final cat2 = Cat('Foo');
+  if (cat1 == cat2) {
+    print('They are equal');
+  }
 }
 
 class MyApp extends StatelessWidget {
