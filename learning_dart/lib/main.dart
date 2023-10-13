@@ -10,7 +10,9 @@ class Cat {
   Cat(this.name);
 }
 
-void test() {}
+void test() {
+  final fluffBall = Cat('Fluff ball');
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
