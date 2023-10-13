@@ -12,6 +12,7 @@ class Cat {
 
 void test() {
   final cat1 = Cat('Foo');
+  final cat2 = Cat('Foo');
 }
 
 class MyApp extends StatelessWidget {
