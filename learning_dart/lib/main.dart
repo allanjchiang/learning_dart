@@ -6,9 +6,7 @@ void main() {
 
 class Cat {}
 
-void test() {
-  final fluffers = Cat();
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
