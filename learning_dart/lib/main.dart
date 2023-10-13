@@ -4,21 +4,10 @@ void main() {
   runApp(const MyApp());
 }
 
-class LivingThing {
-  void breathe() {
-    print('Living thing is breathing');
-  }
-
-  void move() {
-    print('I am moving');
-  }
-}
-
-class Cat extends LivingThing {}
+class Cat {}
 
 void test() {
   final fluffers = Cat();
-  fluffers.move();
 }
 
 class MyApp extends StatelessWidget {
