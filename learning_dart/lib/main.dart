@@ -9,14 +9,11 @@ class Cat {
 
   Cat(this.name);
 
-  factory Cat.fluffBall() {
-    return Cat('Fluff Ball 2');
-  }
+ 
 }
 
 void test() {
-  final fluffBall = Cat.fluffBall();
-  print(fluffBall.name);
+  final 
 }
 
 class MyApp extends StatelessWidget {
