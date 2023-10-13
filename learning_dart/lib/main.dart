@@ -10,7 +10,7 @@ class Cat {
   Cat(this.name);
 
   factory Cat.fluffBall() {
-    return Cat('Fluff Ball');
+    return Cat('Fluff Ball 2');
   }
 }
 
