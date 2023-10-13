@@ -4,7 +4,11 @@ void main() {
   runApp(const MyApp());
 }
 
-class Cat {}
+class Cat {
+  final String name;
+
+  Cat(this.name);
+}
 
 void test() {}
 
