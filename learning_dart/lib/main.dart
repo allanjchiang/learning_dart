@@ -16,6 +16,7 @@ class Cat {
 
 void test() {
   final fluffBall = Cat.fluffBall();
+  print(fluffBall.name);
 }
 
 class MyApp extends StatelessWidget {
