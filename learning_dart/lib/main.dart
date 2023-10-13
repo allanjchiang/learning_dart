@@ -15,6 +15,8 @@ void test() {
   final cat2 = Cat('Foo');
   if (cat1 == cat2) {
     print('They are equal');
+  } else {
+    print('They are not equal');
   }
 }
 
