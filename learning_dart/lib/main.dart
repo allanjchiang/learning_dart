@@ -8,12 +8,10 @@ class Cat {
   final String name;
 
   Cat(this.name);
-
- 
 }
 
 void test() {
-  final 
+  final cat1 = Cat('Foo');
 }
 
 class MyApp extends StatelessWidget {
