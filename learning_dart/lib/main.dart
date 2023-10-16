@@ -26,6 +26,18 @@ void test() {
   }
 }
 
+class Book {
+  String? name;
+  String? author;
+  int? price;
+}
+
+void print() {
+  print(name);
+  print(author);
+  print(price);
+}
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
