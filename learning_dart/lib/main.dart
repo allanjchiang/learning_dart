@@ -16,15 +16,7 @@ class Cat {
   int get hashCode => name.hashCode;
 }
 
-void test() {
-  final cat1 = Cat('Foo');
-  final cat2 = Cat('Foo');
-  if (cat1 == cat2) {
-    print('They are equal');
-  } else {
-    print('They are not equal');
-  }
-}
+void test() {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
