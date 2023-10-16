@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+
+  Book b1 = Book();
 }
 
 class Cat {
