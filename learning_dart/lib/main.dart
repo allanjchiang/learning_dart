@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
-
-  Book b1 = Book();
 }
 
 class Cat {
@@ -25,18 +23,6 @@ void test() {
     print('They are equal');
   } else {
     print('They are not equal');
-  }
-}
-
-class Book {
-  String? name;
-  String? author;
-  int? price;
-
-  void print() {
-    print($name);
-    print($author);
-    print($price);
   }
 }
 
