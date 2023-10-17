@@ -4,6 +4,8 @@ void main() {
   runApp(const MyApp());
 }
 
+Future<int> heavyIntThatMultipliesByTwo(int a) {}
+
 void test() {}
 
 class MyApp extends StatelessWidget {
