@@ -17,6 +17,10 @@ class Person {
   Person(this.firstName, this.lastName);
 }
 
+extension FullName on Person {
+  String get fullName => '$firstName $lastName';
+}
+
 extension Run on Cat {
   void run() {
     print("Cat $name is running");
