@@ -4,7 +4,9 @@ void main() {
   runApp(const MyApp());
 }
 
-Future<int> heavyIntThatMultipliesByTwo(int a) {}
+Future<int> heavyIntThatMultipliesByTwo(int a) {
+  Future.delayed(Duration(seconds: 3), () => a);
+}
 
 void test() {}
 
