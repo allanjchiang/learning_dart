@@ -5,7 +5,7 @@ void main() {
 }
 
 Future<int> heavyIntThatMultipliesByTwo(int a) {
-  return Future.delayed(const Duration(seconds: 3), () => a);
+  return Future.delayed(const Duration(seconds: 3), () => a * 2);
 }
 
 void test() {}
