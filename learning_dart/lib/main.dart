@@ -10,6 +10,8 @@ class Cat {
   Cat(this.name);
 }
 
+extension Run on Cat {}
+
 void test() {
   final meow = Cat('Fluffers');
   print(meow.name);
