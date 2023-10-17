@@ -4,6 +4,10 @@ void main() {
   runApp(const MyApp());
 }
 
+Future<void> fetchUserOrder() {
+  return Future.delayed(const Duration(seconds: 2), () => print('Large Latte'));
+}
+
 Future<int> heavyFutureThatMultipliesByTwo(int a) {
   return Future.delayed(const Duration(seconds: 3), () => a * 2);
 }
@@ -11,6 +15,8 @@ Future<int> heavyFutureThatMultipliesByTwo(int a) {
 void test() async {
   final result = await heavyFutureThatMultipliesByTwo(10);
   print(result);
+  fetchUserOrder();
+  print('Fetching user order...');
 }
 
 class MyApp extends StatelessWidget {
