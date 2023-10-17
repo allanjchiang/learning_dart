@@ -24,8 +24,7 @@ extension Run on Cat {
 }
 
 void test() {
-  final meow = Cat('Fluffers');
-  meow.run();
+  final foo = Person('Foo', 'Bar');
 }
 
 class MyApp extends StatelessWidget {
