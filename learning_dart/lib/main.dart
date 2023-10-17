@@ -11,7 +11,8 @@ class Cat {
 }
 
 void test() {
-  final meow = Cat();
+  final meow = Cat('Fluffers');
+  print(meow.name);
 }
 
 class MyApp extends StatelessWidget {
