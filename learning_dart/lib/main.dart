@@ -9,7 +9,7 @@ Future<int> heavyIntThatMultipliesByTwo(int a) {
 }
 
 void test() async {
-  final result = heavyIntThatMultipliesByTwo(10);
+  final result = await heavyIntThatMultipliesByTwo(10);
   print(result);
 }
 
