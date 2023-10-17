@@ -5,7 +5,8 @@ void main() {
 }
 
 Future<void> fetchUserOrder() {
-  return Future.delayed(const Duration(seconds: 2), () => print('Large Latte'));
+  return Future.delayed(const Duration(seconds: 2),
+      () => throw Exception('Logout failed: user ID is invalid'));
 }
 
 Future<int> heavyFutureThatMultipliesByTwo(int a) {
