@@ -4,9 +4,13 @@ void main() {
   runApp(const MyApp());
 }
 
-Future<void> fetchUserOrder() {
-  return Future.delayed(const Duration(seconds: 2),
-      () => throw Exception('Logout failed: user ID is invalid'));
+Future<String> createOrderMessage() async {
+  var order = await fetchUserOrder();
+  return 'Your order is $order';
+}
+
+Future<String> fetchUserOrder() {
+  return Future.delayed(const Duration(seconds: 2), () => 'Large Latte');
 }
 
 Future<int> heavyFutureThatMultipliesByTwo(int a) {
