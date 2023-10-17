@@ -10,6 +10,13 @@ class Cat {
   Cat(this.name);
 }
 
+class Person {
+  final String firstName;
+  final String lastName;
+
+  Person(this.firstName, this.lastName);
+}
+
 extension Run on Cat {
   void run() {
     print("Cat $name is running");
