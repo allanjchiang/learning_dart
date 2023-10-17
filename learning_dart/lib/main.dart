@@ -10,7 +10,11 @@ class Cat {
   Cat(this.name);
 }
 
-extension Run on Cat {}
+extension Run on Cat {
+  void run() {
+    print("Cat $name is running");
+  }
+}
 
 void test() {
   final meow = Cat('Fluffers');
