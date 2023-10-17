@@ -21,6 +21,7 @@ Future<void> test() async {
   final result = await heavyFutureThatMultipliesByTwo(10);
   print(result);
   print('Fetching user order...');
+  print(await createOrderMessage());
 }
 
 class MyApp extends StatelessWidget {
