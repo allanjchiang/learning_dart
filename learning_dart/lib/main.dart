@@ -8,7 +8,7 @@ Future<int> heavyIntThatMultipliesByTwo(int a) {
   return Future.delayed(const Duration(seconds: 3), () => a * 2);
 }
 
-void test() {}
+void test() async {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
