@@ -29,6 +29,7 @@ extension Run on Cat {
 
 void test() {
   final foo = Person('Foo', 'Bar');
+  print(foo.fullName);
 }
 
 class MyApp extends StatelessWidget {
