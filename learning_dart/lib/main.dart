@@ -4,18 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-Stream<String> getName() {
-  return Stream.periodic(const Duration(seconds: 1), (value) {
-    return 'Foo';
-  });
-}
-
-void test() async {
-  await for (final value in getName()) {
-    print(value);
-  }
-  print('Stream finished working');
-}
+void test() async {}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
