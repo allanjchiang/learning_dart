@@ -4,6 +4,10 @@ void main() {
   runApp(const MyApp());
 }
 
+List<int> getOneTwoThree() {
+  return [1, 2, 3];
+}
+
 void test() async {}
 
 class MyApp extends StatelessWidget {
