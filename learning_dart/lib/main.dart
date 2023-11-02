@@ -9,8 +9,9 @@ Stream<String> getName() {
 }
 
 void test() async {
-  final value = getName();
-  print(value);
+  await for (final value in getName()) {
+    print(value);
+  }
 }
 
 class MyApp extends StatelessWidget {
