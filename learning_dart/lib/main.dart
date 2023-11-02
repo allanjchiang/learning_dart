@@ -12,6 +12,7 @@ void test() async {
   await for (final value in getName()) {
     print(value);
   }
+  print('Stream finished working');
 }
 
 class MyApp extends StatelessWidget {
