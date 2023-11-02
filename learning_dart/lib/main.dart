@@ -4,24 +4,13 @@ void main() {
   runApp(const MyApp());
 }
 
-Future<String> createOrderMessage() async {
-  var order = await fetchUserOrder();
-  return 'Your order is $order';
+Stream<String> getName() {
+  return Stream.value('Foo');
 }
 
-Future<String> fetchUserOrder() {
-  return Future.delayed(const Duration(seconds: 2), () => 'Large Latte');
-}
-
-Future<int> heavyFutureThatMultipliesByTwo(int a) {
-  return Future.delayed(const Duration(seconds: 3), () => a * 2);
-}
-
-Future<void> test() async {
-  final result = await heavyFutureThatMultipliesByTwo(10);
-  print(result);
-  print('Fetching user order...');
-  print(await createOrderMessage());
+void test() async {
+  final value = getName();
+  print(value);
 }
 
 class MyApp extends StatelessWidget {
